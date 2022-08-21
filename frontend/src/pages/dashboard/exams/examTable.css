@@ -1,0 +1,122 @@
+
+  .examtable{
+    position: relative;
+    font-size: 0.9em;
+    font-weight: 600;
+  }
+  @media only screen and (min-width: 1350px){
+    .examtable{
+      position: relative;
+      left: 10%;
+      font-weight: 600;
+    }
+  }
+  
+.sticky{
+  display:flex;
+  justify-content: center;
+  align-items: space-between;
+  margin-left:20px;
+  margin-top: 20px;
+}
+
+
+@media only screen and (max-width: 1359px) {
+  .examtable {
+    position: relative;
+    left: 10%;
+    max-width: 70%;
+    font-weight: 600;
+  }
+}
+  
+  .examtable td, .examtable th {
+    border: 1px solid #ddd;
+}
+
+.examtable td{
+  padding-right: 25px;
+  padding-left: 25px;
+}
+.examtable th{
+  padding-left: 25px;
+  padding-right: 25px;
+
+}
+  .examtable input{
+    margin-bottom: 10px;
+    width:20%;
+    height: 30px;
+  }
+
+  .examtable input:focus{
+    border: 2px solid rgb(0, 0, 0);
+  }
+
+  .examtable .addBtn{
+    margin-left:40px;
+    cursor: pointer;
+    background-color: #204ea5;
+    border-radius: 50px;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    border: none;
+    margin-bottom: 10px;
+  }
+  .examtable tr:nth-child(odd){background-color: #deeff0;}
+  .examtable tr:nth-child(even){background-color: #f2f2f2;}
+  
+  .examtable tr:hover {background-color: #ddd;}
+  .examtable td button{
+    border: none;
+  padding: 6px;
+  border-radius: 20%;
+
+  text-align: center;
+  text-decoration: none;
+   margin: 4px 2px;
+   background-color: #1a538b;
+  cursor: pointer;
+  color: whitesmoke;
+
+  }
+
+
+  .examtable td button:nth-child(2){
+    background-color: rgb(25, 143, 27);
+  }
+
+  .examtable td button:nth-child(2):hover{
+    background-color: rgba(25, 143, 27, 0.662);
+  }
+  .examtable td button:nth-child(3){
+    background-color: rgb(176, 17, 17);
+  }
+  .examtable td button:nth-child(3):hover{
+    background-color: rgba(176, 17, 17, 0.568);
+  }
+
+  .examtable td button:hover{
+   background-color: #204fa5b1;
+
+  }
+
+ .paginateBtn span{
+   margin:0 4px 0px 4px;
+ }
+  .examtable th {
+    /* padding-top: 12px;
+    padding-bottom: 12px; */
+    text-align: center;
+    /* background-color: #084776; */
+    background-color: #204ea5;
+    color: whitesmoke;
+  }
+
+
+  /* note */
+
+
+ 

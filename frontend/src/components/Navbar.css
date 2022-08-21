@@ -1,0 +1,62 @@
+.button-35 {transition: transform 1s; background-color: rgb(242, 244, 249); border-radius: 15px; box-shadow: transparent 0 0 0 3px,rgba(18, 18, 18, .1) 0 6px 20px; color: #010101; cursor: pointer; font-family: Inter,sans-serif; font-size: 1rem; font-weight: 700; line-height: 1; margin: 0; outline: none; padding: 0.3rem 0.3rem; text-align: center; text-decoration: none; transition: box-shadow .2s,-webkit-box-shadow .2s; white-space: nowrap; border: 0; user-select: none; -webkit-user-select: none; touch-action: manipulation;  width:120px;height:35px; } 
+.button-35:hover{
+    transform: scale(1.1);
+}
+.navbar{
+  height: 60px;
+  display: flex;
+  /* flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  /* flex-wrap:wrap; */
+  flex-direction: row-reverse;
+  box-shadow: 0 5px 10px #ccc;
+  background-color:rgb(73, 132, 209);
+}
+
+  /* .link{
+      top: 1%;
+      font-size: 1.5rem;
+      color:black
+  }
+  .link:hover{background-color: black; color:aliceblue} */
+  /* Specific styles for non-active links */
+  .topnav {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    
+    
+  }
+ 
+  .topnav button{
+    margin-top: 10px;
+    margin-right: 20px;
+  }
+  
+  /* Style the links inside the navigation bar */
+ 
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: rgb(246, 12, 12);
+    color: rgb(255, 255, 255);
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #0c2e22;
+    color: rgb(26, 2, 2);
+  }
+  
+  /* Specific styles for active links */
+  
+  @media only screen and (max-width: 800px) {
+    .button-35{
+        padding:10px 10px;
+    }
+    .topnav a{
+        padding:10px 10px;
+        bottom:94%;
+    }
+  }

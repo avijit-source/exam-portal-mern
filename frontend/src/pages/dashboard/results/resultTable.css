@@ -1,0 +1,22 @@
+#resultTable{
+    margin-left: 15%;
+}
+#btnExport{
+    margin-right: 20%;
+}
+/* #searchgbl{
+    margin-right: 20%;
+} */
+.rescount{
+    color: darkblue;
+    font-size: 1.1em;
+    font-weight: 600;
+    text-align: center;
+    position:relative;
+    bottom:20px;
+    margin-right:20px;
+}
+.sticky{
+    margin-right: 20%;
+    margin-top: 30px;
+}

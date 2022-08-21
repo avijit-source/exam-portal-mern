@@ -1,0 +1,25 @@
+.formdiv{
+   margin-left: 40px;
+}
+.formdiv input{
+    margin-top: 20px;
+    width: 250px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+.formdiv select{
+  width: 60px;
+  height: 25px;
+}
+.formdiv button{
+    border: none;
+  padding: 10px;
+font-family: cursive;
+  text-align: center;
+  font-size:1.1em;
+  text-decoration: none;
+   margin: 20px 5px 0px 20px;
+   background-color: #285fb1;
+  cursor: pointer;
+  color: whitesmoke;
+}

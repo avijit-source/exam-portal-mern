@@ -1,0 +1,70 @@
+
+.tableuser {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    margin-left: 25%;
+    width: 60vw;
+    font-size:15px;
+  }
+  
+  .tableuser td, .tableuser th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .tableuser tr:nth-child(even){background-color: #f2f2f2;}
+  
+  .tableuser tr:hover {background-color: #ddd;}
+  
+  .tableuser th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #0f4bab;
+    color: white;
+  }
+  .tableuser td button{
+    border: none;
+  padding: 6px;
+  border-radius: 20%;
+
+  text-align: center;
+  text-decoration: none;
+   margin: 4px 2px;
+   background-color: #be2a52;
+  cursor: pointer;
+  color: whitesmoke;
+
+  }
+  .spangroup h2{
+    display: inline;
+  }
+  .spangroup button{
+    margin-left: 20px;
+  }
+  .createbtn{
+    border: none;
+    padding: 10px;
+    font-size: 1.1em;
+    font-family: cursive;
+    text-align: center;
+    text-decoration: none;
+     margin-bottom: 10px;
+     background-color: #203792;
+    cursor: pointer;
+    color: whitesmoke;
+  }
+
+  .ReactModal__Overlay {
+    opacity: 0;
+    transition: opacity 200ms ease-out;
+
+}
+
+.ReactModal__Overlay--after-open{
+    opacity: 1;
+}
+
+.ReactModal__Overlay--before-close{
+    opacity: 0;
+}

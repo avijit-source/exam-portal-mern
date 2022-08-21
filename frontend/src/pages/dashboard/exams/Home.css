@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Adamina&family=Fira+Sans:wght@500&family=Lato:ital,wght@1,300&family=Mulish:wght@300&family=Nunito:wght@300&family=Roboto:wght@300&family=Rubik&family=Shippori+Antique+B1&family=Ubuntu:wght@300;400&family=Zen+Kurenaido&display=swap');
+
+
+/* .main-contain{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items:flex-start;
+    font-family: 'Nunito', sans-serif;
+
+} */
+@media only screen and (max-width: 1400px) {
+    .main-contain {
+      overflow: scroll;
+    }
+  }
+ .tableFlex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+/* .main-contain div{
+    background: #000;
+} */

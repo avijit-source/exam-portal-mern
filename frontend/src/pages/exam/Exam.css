@@ -1,0 +1,161 @@
+/* body{
+    overflow: hidden;
+} */
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 2em;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+#newdiv{
+  font-size:"20px";
+  font-weight:"600";
+  color: rgba(255, 255, 255, 0.623);
+}
+
+.sidenav {
+  height: 100%;
+  max-width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  
+background-color: #b8c6db;
+background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
+  
+
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.sidenav .active{
+  background-color:rgb(37, 157, 37);
+  color: #fff;
+}
+.sidenav button {
+  padding: 4px 6px 4px 12px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #000000;
+  display: inline-block;
+  border: none;
+  border-radius: 10%;
+  margin:5px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.sidenav button:hover {
+  color: #e2caca;
+  cursor: pointer;
+}
+
+.main {
+  margin-left: 300px; /* Same as the width of the sidenav */
+  font-size: 25px; /* Increased text to enable scrolling */
+  /* padding: 0px 0px !important;
+  margin: 0px !important; */
+  
+}
+.timer{
+  display:flex;
+  align-items: center;
+  justify-content:space-around;
+  margin:0;
+  padding:0;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav button {font-size: 18px;}
+}
+.sidenav2 {
+  height: 50%;
+  max-width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.button-29 { align-items: center; appearance: none; background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%); border: 0; border-radius: 6px; box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset; box-sizing: border-box; color: #fff; cursor: pointer; display: inline-flex; font-family: "JetBrains Mono",monospace; height: 30px; justify-content: center; line-height: 1; list-style: none; overflow: hidden; padding-left: 10px; padding-right: 10px; position: relative; text-align: left; text-decoration: none; transition: box-shadow .15s,transform .15s; user-select: none; -webkit-user-select: none; touch-action: manipulation; white-space: nowrap; will-change: box-shadow,transform; font-size: 15px; margin-right:75% } .button-29:focus { box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset; } .button-29:hover { box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset; transform: translateY(-2px); } .button-29:active { box-shadow: #3c4fe0 0 3px 7px inset; transform: translateY(2px); }
+button[disabled] {
+  cursor: not-allowed;
+}
+
+.glow{
+  color: rgb(224, 13, 6);
+  background-color: rgb(218, 244, 241);
+  padding: 0.2em 0.4em 0.2em 0.4em;
+  border-radius: 0.4em;
+}
+.notification {
+  background-color: rgb(11, 70, 129);
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  position: relative;
+  display: inline-block;
+  border-radius: 2px;
+  /* margin-bottom: 5px; */
+  /* padding-top: 5px; */
+  /* margin-right: 50%; */
+}
+
+/* .notification:hover {
+  background: red;
+} */
+
+.notification .badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  padding: 5px 10px;
+  border-radius: 50%;
+  background: red;
+  color: white;
+}
+.notification span{
+  /* margin-top: 10px; */
+  display: inline-block;
+}
+.sidenav .not-attended{
+  background-color:rgb(205, 15, 15);
+  color: #fff;
+}
+.sidenav .attended{
+  background-color:rgb(37, 157, 37);
+  color: #fff;
+}
+.bookmarkdiv::-webkit-scrollbar{
+  display: none;
+}
+
